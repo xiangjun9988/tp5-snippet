@@ -1,0 +1,41 @@
+{
+  "name": "tp5-snippet",
+  "displayName": "thinkphp",
+  "version": "1.0.0",
+  "description": "thinkphp, thinkphp5,snippet 快捷代码",
+  "icon": "images/daxiang.png",
+  "publisher": "daxiang",
+  "main": "index.js",
+  "categories": [
+    "Snippets"
+  ],
+  "engines": {
+    "vscode": "^1.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiangjun9988/tp5-snippet.git"
+  },
+  "keywords": ["php", "thinkphp","thinkphp5"],
+  "author": "daxiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiangjun9988/tp5-snippet/issues"
+  },
+  "homepage": "https://github.com/xiangjun9988/tp5-snippet#readme",
+    "contributes": {
+      "snippets": [
+        {
+          "language": "php",
+          "path": "./snippets/tp5.json"
+        },
+         {
+           "language": "php",
+           "path": "./snippets/php.json"
+         }
+      ]
+    }
+}
